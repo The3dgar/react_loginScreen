@@ -1,0 +1,61 @@
+$radius: 12px;
+$blue: blue;
+$black: black;
+$navy: navy;
+
+.container {
+  height: 100vh;
+}
+
+.login__logo {
+  height: 50px;
+}
+
+.login__card {
+  border-radius: $radius;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 5px;
+  min-width: 200px;
+}
+
+input {
+  border-radius: $radius !important;
+}
+
+.login__submit {
+  background-color: $blue !important;
+  border-radius: $radius !important;
+}
+
+.login__link {
+  color: $navy !important;
+}
+
+.login__footer {
+  font-size: small;
+
+  i {
+    color: $navy !important;
+  }
+
+  select {
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fff !important;
+  }
+
+  button {
+    margin: 0;
+    padding: 2px;
+    padding-top: 0px;
+    text-decoration: none;
+    color: $black !important;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  button:hover {
+    text-decoration: none !important;
+    color: $navy !important;
+  }
+}

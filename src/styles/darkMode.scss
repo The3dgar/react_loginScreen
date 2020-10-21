@@ -1,0 +1,45 @@
+.dark__toggle {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.dark__mode {
+  background-color: #556;
+
+  .dark__toggle{
+    color:yellow
+  }
+
+  .card {
+    background-color: #333;
+
+    .card-title {
+      color: white;
+    }
+  
+    .card-body {
+      button {
+        color: white !important;
+      }
+  
+      .login__submit {
+        border: none;
+        background-color: #c267ba !important;
+      }
+    }
+  }
+
+
+  .login__footer{
+    i {
+      color: white !important
+    }
+
+    select {
+      background-color: #556 !important;
+    }
+  }
+}
