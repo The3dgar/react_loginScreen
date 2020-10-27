@@ -3,7 +3,6 @@ import Swal from "sweetalert2";
 import { useForm } from "../hooks/useForm";
 import { useLang } from "../hooks/useLang";
 import { systemsLangs } from "../lang";
-import logo from "../logo.svg";
 import "../styles/loginScreen.scss";
 import { DarkMode } from "./DarkMode";
 
@@ -24,7 +23,7 @@ export const LoginScreen = () => {
     if (validation.ok) {
       Swal.fire({
         title: text.alert_title,
-        html: "<p>Maybe i am your new developer</p>",
+        html: "<p>Spanish speaker: 'Me voy a ir yendo'</p>",
         timer: 2000,
         timerProgressBar: true,
         showConfirmButton: false
@@ -52,7 +51,7 @@ export const LoginScreen = () => {
                 <div className="card-body">
                   <img
                     className="login__logo mb-5 mt-3"
-                    src={logo}
+                    src={process.env.PUBLIC_URL + "/logo512.png"}
                     alt="logo"
                   />
                   <h5 className="card-title mb-3">{text.title}</h5>

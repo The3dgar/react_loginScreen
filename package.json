@@ -9,7 +9,6 @@
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-intl": "^5.8.6",
     "react-scripts": "3.4.3",
     "sweetalert2": "^10.6.1"
   },
@@ -33,5 +32,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.4.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1"
   }
 }
